@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Orders-table</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="font/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/style-orders.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/fancySelect.css" type="text/css" />
+	
+</head>
+<body class="orders-bg">
+<div class="container">
+<form action="index-table.html" method="get">
+<table class="promo-orders">
+	<tr>
+		<td class="promo-orders_item logo_item" >
+			super<span> shop</span>
+		</td>
+		<td class="content-bg promo-orders-head">ЗАКАЗЫ</td>
+	</tr>
+	<tr>
+		<td class="navigation" width="180px" height="920px" valign="top">
+			<ul>
+				<li class="navigation-item">Заказы</li>
+				<li class="navigation-item">Пользователи</li>
+				<li class="navigation-item">Товары</li>
+				<li class="navigation-item">Категории</li>
+			</ul>
+		</td>
+		<td class="content-bg" width="780px" valign="top">
+			<table id="basic-usage" class="orders-content" width="95%">
+				<tr class="orders-content-item--head">	
+					<th class="orders-content-item--bn"></th>		
+					<th colspan="2">номер заказа</th>
+					<th>статус</th>
+					<th>сумма</th>
+					<th colspan="3">время заказа</th>
+				</tr>
+				<tr class="orders-content-item">
+					<td class="orders-content-item--bn"></td>
+					<td class="orders-content-item--number">№<span>4828</span></td>
+					<td class="orders-content-item--email">от  <span>user@mail.ru</span></td>
+					<td class="orders-content-item--status">
+						<select class="menu-orders-status">
+							<option value="ok">принят</option>
+							<option value="out">отгружен</option>
+							<option value="boot">у курьера</option>
+							<option value="hand">доставлен</option>
+							<option value="no">отмена</option>
+						</select>
+					</td>
+					<td class="orders-content-item--price">45 897</td>
+					<td class="orders-content-item--data">01.01.2015</td>
+					<td class="orders-content-item--time">в 16:12</td>
+					<td class="orders-content-item--ref">просмотр</td>
+				</tr>
+
+				<tr class="orders-content-item">
+
+					<td class="orders-content-item--bn"></td>
+					<td class="orders-content-item--number">№<span>4828</span></td>
+					<td class="orders-content-item--email">от  <span>user@mail.ru</span></td>
+					<td class="orders-content-item--status">
+						<select class="menu-orders-status">
+							<option value="ok">принят</option>
+							<option value="out">отгружен</option>
+							<option value="boot">у курьера</option>
+							<option value="hand">доставлен</option>
+							<option value="no">отмена</option>
+						</select>
+					</td>
+					<td class="orders-content-item--price">45 897</td>
+					<td class="orders-content-item--data">01.01.2015</td>
+					<td class="orders-content-item--time">в 16:12</td>
+					<td class="orders-content-item--ref">просмотр</td>
+				</tr>
+				
+				<tr class="orders-content-item">
+				
+					<td class="orders-content-item--bn"></td>
+					<td class="orders-content-item--number">№<span>4828</span></td>
+					<td class="orders-content-item--email">от  <span>user@mail.ru</span></td>
+					<td class="orders-content-item--status">
+
+						<select name="info-zakaza" class="menu-orders-status">
+							<option value="ok">принят</option>
+							<option value="out">отгружен</option>
+							<option value="boot">у курьера</option>
+							<option value="hand">доставлен</option>
+							<option value="no">отмена</option>
+						</select>
+						
+					</td>
+					<td class="orders-content-item--price">45 897</td>
+					<td class="orders-content-item--data">01.01.2015</td>
+					<td class="orders-content-item--time">в 16:12</td>
+					<td class="orders-content-item--ref"><button type="submit">просмотр</button></td>
+				
+				</tr>
+				
+				<tr class="orders-content-item">
+					<td class="orders-content-item--bn"></td>
+					<td class="orders-content-item--number">№<span>4828</span></td>
+					<td class="orders-content-item--email">от  <span>user@mail.ru</span></td>
+					<td class="orders-content-item--status">
+						<select class="menu-orders-status">
+							<option value="ok">принят</option>
+							<option value="out">отгружен</option>
+							<option value="boot">у курьера</option>
+							<option value="hand">доставлен</option>
+							<option class="menu-orders-status--item" value="no">отмена</option>
+						</select>
+					</td>
+					<td class="orders-content-item--price">45 897</td>
+					<td class="orders-content-item--data">01.01.2015</td>
+					<td class="orders-content-item--time">в 16:12</td>
+					<td class="orders-content-item--ref">просмотр</td>
+				</tr>				
+			</table>
+		</td>
+
+	</tr>
+	<tr >
+		<td width="180px" >
+			<ul>
+			 	<li>admin@mail.ru</li>
+			 	<li>выйти</li>
+			 </ul>
+		</td>
+		<td class="content-bg" width="780px"></td>
+	</tr>
+</table>
+</form>	
+</div>	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="js/fancySelect.js" type="text/javascript"></script>
+	<script>
+			$(document).ready(function() {
+				$('.menu-orders-status').fancySelect();
+			});
+	</script>
+</body>
+</html>
